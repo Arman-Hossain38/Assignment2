@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+        /*header section start  */
+nav{
+    background-color: #FF5400;
+    margin: 0 100px;
+    height: 80px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Travel{
+    color: yellow;
+}
+.logo {
+    font-size: 2rem;
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.logo i{
+    color: yellow;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0.6rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.4s;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+nav ul li a:hover,
+nav ul li a.active{
+    background-color: palevioletred;
+    border-radius: 5px;
+}
+.menu-icon{
+    color: white;
+    cursor: pointer;
+     display: none;
+ }
+ #click{
+    display: none;
+ }
+
+/*header section end  */
+/*main section start  */
+/*banner section start  */
+#banner-section{
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 100px;
+    height: 500px;
+    border-radius: 5px;
+}
+.banner-content{
+    padding-top: 150px;
+    text-align: center;
+}
+.banner-heading{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-des{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+ .banner-inputfill{
+    background: rgba(255, 255, 255, 0.30);
+    padding: 40px 0;
+    padding-right: 140px;
+    position: relative;
+    left: 300px;
+    margin: 0 auto;
+   
+}
+.banner-inputfill, .inputfill-container{
+    display: inline;
+    text-align: center;
+}
+.banner-inputfill, input{
+  
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    margin-top: 30px;
+    border: none;
+    margin-left: 15px;
+}
+::placeholder{
+    padding-left: 15px;
+    font-size: 16px;
+}
+.input-icon{
+    color: black;
+    margin-left: -40px;
+    padding-right: 15px;
+}
+
+.banner-btn{
+    background: #FF5400;
+    color: #FFF;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 16px;
+}
+.banner-search-icon{
+  margin-left: -150px;
+  font-size: 20px;
+  align-items: center;
+  color: #fff;
+}
+
+
+
+/*banner section end  */
+/* Tour section start */
+.tour-container{
+    display: flex;
+}
+.article-heading{
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.article-des{
+    width: 80%;
+    color: #131318B2;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+.unorder-des{
+    margin-left: 30px;
+}
+.article-btn{
+    background-color: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* Tour section end */
+
+
+
+/*main section end  */
+@media (min-width: 992px) {
+    #tour-section{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 120px 100px;
+    }
+}
+
+@media (max-width: 600px){
+            /*header section start  */
+nav{
+    margin: 0 25px;
+
+}
+    .menu-icon{
+        display: block;
+    }
+    #click:checked ~ .menu-icon i:before{
+        content: '\2715';
+    }
+        
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left:100%;
+        min-height: 60vh;
+        background-color: black;
+        width: 100%;
+        display: block;
+        text-align: center;
+        transition: all 0.4s; 
+        
+    }
+    #click:checked ~ ul{
+        left: 0%;
+    }
+    nav ul li{
+     margin-top: 50px;
+        
+       }
+    nav ul li a{
+        font-size: 1.2rem;
+        padding: 20px 150px;
+         transition: all 0.4s;
+    }
+    nav ul li a.active{
+       background-color: black;
+    }
+    nav ul li a:hover{
+        background-color: hotpink;
+    }
+ 
+
+/*header section end  */
+/*main section start  */
+/*banner section start  */
+#banner-section{
+    margin: 0 25px;
+    height: 650px;
+    border-radius: 5px;
+}
+.banner-heading{
+    font-size: 30px;
+}
+.banner-des{
+    font-size: 14px;
+    width: 300px;
+}
+.banner-des-parent{
+    display: flex;
+    justify-content: center;
+}
+.banner-content{
+    padding-top: 40px;
+
+ }
+ .banner-inputfill{
+    padding-bottom: 320px;
+    padding-right: 150px;
+    left: 100px;
+    top: 10px;
+}
+.banner-inputfill, .inputfill-container{
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputfill-container, .text{
+    width: 300px;
+}
+.input-icon{
+    position: relative;
+    bottom: 30px;
+    left: 160px;
+}
+.banner-search-icon{
+   position: relative;
+    bottom: 35px;
+    left: 40px;
+
+ 
+  }
+
+/*banner section end  */
+/* Tour section start */
+.tour-container{
+    flex-direction: column;
+    
+}
+
+.article-des{
+   
+}
+.tour-content{
+    width: 100%;
+    margin: 0 50px;
+}
+
+
+
+
+} 
