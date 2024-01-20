@@ -2,13 +2,17 @@
     margin: 0;
     padding: 0;
 }
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
         /*header section start  */
 nav{
     background-color: #FF5400;
-    margin: 0 100px;
     height: 80px;
     border-radius: 5px;
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content: space-around;
 }
@@ -65,12 +69,11 @@ nav ul li a.active{
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 100px;
     height: 500px;
     border-radius: 5px;
 }
 .banner-content{
-    padding-top: 150px;
+    padding-top: 150px; 
     text-align: center;
 }
 .banner-heading{
@@ -87,18 +90,21 @@ nav ul li a.active{
     font-weight: 400;
     line-height: 26px; 
 }
+
+
  .banner-inputfill{
     background: rgba(255, 255, 255, 0.30);
     padding: 40px 0;
     padding-right: 140px;
-    position: relative;
-    left: 300px;
     margin: 0 auto;
-   
+    position: static;
+    position: relative;
+    left: 200px;
 }
 .banner-inputfill, .inputfill-container{
     display: inline;
     text-align: center;
+    
 }
 .banner-inputfill, input{
   
@@ -139,12 +145,12 @@ nav ul li a.active{
 /* Tour section start */
 .tour-container{
     display: flex;
+    margin: 100px  0;
 }
 .article-heading{
     font-family: Mulish;
     font-size: 40px;
     font-weight: 800;
-
 }
 .article-des{
     width: 80%;
@@ -157,33 +163,63 @@ nav ul li a.active{
     letter-spacing: 1px;
 }
 .unorder-des{
-    margin-left: 30px;
+    margin-left: 15px;
 }
 .article-btn{
     background-color: #FF5400;
     color: #FFF;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 600;
 }
-
+.tour-img{
+    width: 500px;
+    height: 500px;
+}
 /* Tour section end */
 
 
 
 /*main section end  */
-@media (min-width: 992px) {
-    #tour-section{
-        display: flex;
-        flex-wrap: wrap;
-        margin: 120px 100px;
-    }
+    /* for desktop */
+@media screen and (max-width: 992px){
+
+/*header section end  */
+nav{
+    margin: 0 40px;
+}
+/*main section start  */
+/*banner section start  */
+#banner-section{
+   margin: 0 40px;
+}
+.banner-inputfill{
+   left: 50px;
+}
+/*banner section end  */
+/* Tour section start */
+.tour-container{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.tour-img{
+    width: 400px;
+    height: 500px;
+}
+/* Tour section end */
+
+
 }
 
-@media (max-width: 600px){
+
+
+    /* for mobaile */
+@media  screen and (max-width:600px){
+    
+
             /*header section start  */
 nav{
-    margin: 0 25px;
-
+    margin:0 25px;
 }
     .menu-icon{
         display: block;
@@ -222,7 +258,6 @@ nav{
     nav ul li a:hover{
         background-color: hotpink;
     }
- 
 
 /*header section end  */
 /*main section start  */
@@ -272,26 +307,67 @@ nav{
    position: relative;
     bottom: 35px;
     left: 40px;
-
- 
-  }
+}
 
 /*banner section end  */
 /* Tour section start */
 .tour-container{
-    flex-direction: column;
-    
+  margin-left: 2.5rem;
+  flex-direction: column;
 }
 
 .article-des{
-   
-}
-.tour-content{
     width: 100%;
-    margin: 0 50px;
+}
+.tour-img{
+   margin-top: 30px;
+    width: 500px;
+    height: 500px;
 }
 
 
 
 
-} 
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
