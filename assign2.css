@@ -5,25 +5,23 @@
 body{
     max-width: 1200px;
     margin: 0 auto;
-}
+    }
 .primary-content{
-    text-align: center;
-  
-}
+        text-align: center;
+    }
 .primary-heading{
         font-family: Mulish;
         font-size: 40px;
         font-weight: 800;
 }
 .primary-des{
-    margin-top: 15px;
-    color: #131318B2;
-    font-family: Mulish;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-}
-   
+        margin-top: 15px;
+        color: #131318B2;
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+    }
 .second-heading{
         font-family: Mulish;
         font-size: 24px;
@@ -42,183 +40,177 @@ body{
 
      /*header section start  */
 nav{
-    background-color: #FF5400;
-    height: 80px;
-    border-radius: 5px;
-    display: flex; 
-    align-items: center;
-    justify-content: space-around;
-}
+        background-color: #FF5400;
+        height: 80px;
+        border-radius: 5px;
+        display: flex; 
+        align-items: center;
+        justify-content: space-around;
+    }
+.nav-img{
+        background-color: #FFFFFF;
+        border-radius: 7px;
+        height: 40px;
+    }
 .Travel{
-    color: yellow;
-}
+        color: yellow;
+    }
 .logo {
-    font-size: 2rem;
-    color:#fff;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-}
+        font-size: 2rem;
+        color:#fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+    }
 .logo i{
-    color: yellow;
-}
+        color: yellow;
+    }
 nav ul{
-    list-style: none;
-    display: flex;
-
-}
-
+        list-style: none;
+        display: flex;
+    }
 nav ul li a{
-    color: white;
-    text-decoration: none;
-    margin: 0.6rem;
-    font-size: 1rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-    transition: all 0.4s;
-    padding: 0.5rem;
-    cursor: pointer;
-}
+        color: white;
+        text-decoration: none;
+        margin: 0.6rem;
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        transition: all 0.4s;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
 nav ul li a:hover,
 nav ul li a.active{
-    background-color: palevioletred;
-    border-radius: 5px;
-}
+        background-color: palevioletred;
+        border-radius: 5px;
+    }
 .menu-icon{
-    color: white;
-    cursor: pointer;
-     display: none;
- }
+        color: white;
+        cursor: pointer;
+        display: none;
+    }
  #click{
-    display: none;
- }
-
+        display: none;
+    }
 /*header section end  */
 /*main section start  */
 /*banner section start  */
 #banner-section{
-    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png);
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    border-radius: 5px;
-}
+        background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png);
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        border-radius: 5px;
+    }
 .banner-content{
-    padding-top: 150px; 
-    text-align: center;
-}
+        padding-top: 150px; 
+        text-align: center;
+    }
 .banner-heading{
-    color: #FFF;
-    font-family: Mulish;
-    font-size: 64px;
-    font-weight: 800;
-}
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 64px;
+        font-weight: 800;
+    }
 .banner-des{
-    color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px; 
-}
-
-
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; 
+    }
  .banner-inputfill{
-    background: rgba(255, 255, 255, 0.30);
-    padding: 40px 0;
-    padding-right: 140px;
-    margin: 0 auto;
-    position: static;
-    position: relative;
-    left: 200px;
-}
+        background: rgba(255, 255, 255, 0.30);
+        padding: 40px 0;
+        padding-right: 140px;
+        margin: 0 auto;
+        position: static;
+        position: relative;
+        left: 200px;
+    }
 .banner-inputfill, .inputfill-container{
-    display: inline;
-    text-align: center;
-    
-}
+        display: inline;
+        text-align: center;
+    }
 .banner-inputfill, input{
-  
-    width: 174px;
-    height: 52px;
-    border-radius: 8px;
-    margin-top: 30px;
-    border: none;
-    margin-left: 15px;
-}
+        width: 174px;
+        height: 52px;
+        border-radius: 8px;
+        margin-top: 30px;
+        border: none;
+        margin-left: 15px;
+    }
 ::placeholder{
-    padding-left: 15px;
-    font-size: 16px;
-}
+        padding-left: 15px;
+        font-size: 16px;
+    }
 .input-icon{
-    color: black;
-    margin-left: -40px;
-    padding-right: 15px;
-}
-
+        color: black;
+        margin-left: -40px;
+        padding-right: 15px;
+    }
 .banner-btn{
-    background: #FF5400;
-    color: #FFF;
-    font-family: Mulish;
-    font-weight: 700;
-    font-size: 16px;
-}
+        background: #FF5400;
+        color: #FFF;
+        font-family: Mulish;
+        font-weight: 700;
+        font-size: 16px;
+    }
 .banner-search-icon{
-  margin-left: -150px;
-  font-size: 20px;
-  align-items: center;
-  color: #fff;
-}
-
-
-
+        margin-left: -150px;
+        font-size: 20px;
+        align-items: center;
+        color: #fff;
+        }
 /*banner section end  */
 /* Tour section start */
 .tour-container{
-    display: flex;
-    margin: 100px  0;
-}
+        display: flex;
+        margin: 100px  0;
+    }
 .article-heading{
-    font-family: Mulish;
-    font-size: 40px;
-    font-weight: 800;
-}
+        font-family: Mulish;
+        font-size: 40px;
+        font-weight: 800;
+    }
 .article-des{
-    width: 80%;
-    color: #131318B2;
-    font-family: Mulish;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 26px;
-    margin-top: 15px;
-    letter-spacing: 1px;
-}
+        width: 80%;
+        color: #131318B2;
+        font-family: Mulish;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 15px;
+        letter-spacing: 1px;
+    }
 .unorder-des{
-    margin-left: 15px;
-}
+        margin-left: 15px;
+    }
 .article-btn{
-    background-color: #FF5400;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 600;
-}
+        background-color: #FF5400;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 600;
+    }
 .tour-img{
-    width: 500px;
-    height: 500px;
-}
+        width: 500px;
+        height: 500px;
+    }
 /* Tour section end */
 /* destination section start */
-.row{
-    display: flex;
-    gap: 20px; 
-    margin-top: 20px;
-}
-.row img{
-    height: 100%;
-    width: 100%;
-}
+    .row{
+        display: flex;
+        gap: 20px; 
+        margin-top: 20px;
+    }
+    .row img{
+        height: 100%;
+        width: 100%;
+    }
 .img-tittle{
         color: #FFFFFF;
         text-align: center;
@@ -228,32 +220,31 @@ nav ul li a.active{
         position: relative;
         top: 180px;
 }
-
 /* destination section end */
 /* choose section start */
 .choose-content{
-    margin-top: 130px;
-}
+        margin-top: 130px;
+    }
 .hotel-container{
-    display: flex;
-    gap: 30px;
-    margin-bottom: 30px;
-    margin-top: 40px;
-}
+        display: flex;
+        gap: 30px;
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
 .hotel-content{
-    background-color: #FBB56333;
-    width: 573px;
-    height: 265px;
-    border-radius: 16px;
-    padding: 40px 40px 0 40px;
-}
+        background-color: #FBB56333;
+        width: 573px;
+        height: 265px;
+        border-radius: 16px;
+        padding: 40px 40px 0 40px;
+    }
 .map-content{
-    background-color: #29CEF633;
-    width: 573px;
-    height: 265px;
-    border-radius: 16px;
-    padding: 40px 40px 0 40px;
-}
+        background-color: #29CEF633;
+        width: 573px;
+        height: 265px;
+        border-radius: 16px;
+        padding: 40px 40px 0 40px;
+    }
 .price-content{
         background-color: #E9444433;
         width: 530px;
@@ -263,15 +254,14 @@ nav ul li a.active{
         text-align: start;
         margin: 0 300px;
 }
-
 /* choose section end */
 /* discount section start */
 #discount-section{
-   margin-top: 120px;
-}
+        margin-top: 120px;
+        }
 .discount-content{
-    margin-bottom: 50px;
-}
+        margin-bottom: 50px;
+        }
 .discount-container1{
         margin-top: 20px;
         background-image: url(./B9A2-Hero-Travel/Images/Group\ 39.png);
@@ -298,7 +288,7 @@ nav ul li a.active{
         }
 .discount-card-heading{
         margin-top: 5px;
-    }
+        }
 .price-ret{
         color: #FF5400;
         font-family: Mulish;
@@ -318,43 +308,39 @@ nav ul li a.active{
         border-radius: 10px;
         margin-top: 10px;
         }
-
 .discount-container2{
-            margin-top: 20px;
-            background-image: url(./B9A2-Hero-Travel/Images/Group\ 40.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 500px;
-            border-radius: 16px;
-        
-            }
+         margin-top: 20px;
+        background-image: url(./B9A2-Hero-Travel/Images/Group\ 40.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        border-radius: 16px;
+        }
 .discount-content2{
-            background: #FFFFFF;
-            width: 400px;
-            height: 320px;
-            margin-left: 50px;
-            position: relative;
-            top: 100px;
-            border-radius: 16px;
-            padding-left: 40px;
-}
+        background: #FFFFFF;
+        width: 400px;
+        height: 320px;
+        margin-left: 50px;
+        position: relative;
+        top: 100px;
+        border-radius: 16px;
+        padding-left: 40px;
+    }
 .package-btn{
-    margin-left: 500px;
-    margin-top: 40px;
-    width: 200px;
-}
-
-
+        margin-left: 500px;
+        margin-top: 40px;
+        width: 200px;
+        }
 /* discount section end */
 /* place section start */
 .place-container{
     /* margin-top: 20px; */
-    display: flex;
-    justify-content: space-between;
-}
+        display: flex;
+        justify-content: space-between;
+    }
 .article-content{
-    margin-top: 55px;
-}
+        margin-top: 55px;
+    }
 .place-heading{
         font-family: Mulish;
         font-size: 30px;
@@ -397,46 +383,47 @@ nav ul li a.active{
 /* place section end */
 /* newsletter section start */
 .newsletter-container{
-    margin-top: 120px;
-    display: flex;
-    justify-content: space-between;
-}
+        margin-top: 120px;
+        display: flex;
+        justify-content: space-between;
+    }
 .article-section{
-    background: #FFF;
-    border: 1px solid #FF5400;
-    border-radius: 10px;
-    width: 500px;
-    height: 400px;
-}
+        background: #FFF;
+        border: 1px solid #FF5400;
+        border-radius: 10px;
+        width: 500px;
+        height: 400px;
+    }
 .newsletter-content{
-    margin: 50px 0 0 50px;
-}
+        margin: 50px 0 0 50px;
+    }
 .newsletter-inputfill .newsletter-input{
-    display: block;
-}
+        display: block;
+    }
 .newsletter-input{
-    background-color: #1313180D;
-    width: 400px;
-    height: 50px;
-    margin-left: 0;
-}
+        background-color: #1313180D;
+        width: 400px;
+        height: 50px;
+        margin-left: 0;
+    }
 .Subscribe-btn{
-    background-color: #FF5400;
-}
+        margin-top: 30px;
+        background-color: #FF5400;
+    }
 .aside-section img{
-    width: 672px;
-    height: 400px;
-}
+        width: 672px;
+        height: 400px;
+    }
 .travel{
-    background-color: #FF5400;
-    height: 100px;
-    width: 290px;
-    border-radius: 10px;
-    transform: rotate(-20deg);
-    position: absolute;
-    left: 66.5rem;
-    top: 396rem;
-}
+        background-color: #FF5400;
+        height: 100px;
+        width: 290px;
+        border-radius: 10px;
+        transform: rotate(-20deg);
+        position: absolute;
+        left: 66.5rem;
+        top: 388rem;
+    }
 .travel-para{
         color: #FFF;
         font-family: Mulish;
@@ -453,116 +440,146 @@ nav ul li a.active{
         text-align: center;
         }
 
-
-/* newsletter section start */
+/* newsletter section end */
 /*main section end  */
+/* footer section start */
+.footer-container{
+        margin-top: 100px;
+        background-color: #1313180D;
+        height: 500px;
+        border-radius: 5px;
+    }
+.footer-content{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+.footer-contents{
+        text-align: center;
+        position: relative;
+        top:  7rem;
+    }
+.footer-img{
+        height: 40px;
+        margin-top: 15px;
+    }
+.Travel-color{
+        color: #FF5400;
+    }
+.footer-icon{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+.horijantal{
+        background-color: #1313181A;
+        margin: 0 150px;
+    }
+.footer-copyright{
+        margin-top: 40px;
+    }
+
+/* footer section end */
     /* for desktop */
 @media screen and (max-width: 992px){
 
 /*header section end  */
-nav{
-    margin: 0 40px;
-}
+    nav{
+        margin: 0 40px;
+    }
 /*main section start  */
 /*banner section start  */
 #banner-section{
-   margin: 0 40px;
-}
+        margin: 0 40px;
+        }
 .banner-inputfill{
-   left: 50px;
-}
+        left: 50px;
+        }
 /*banner section end  */
 /* Tour section start */
 .tour-container{
-    display: flex;
-    margin-left: 40px;
-    margin-right: 40px;
-}
+        display: flex;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 .tour-img{
-    width: 400px;
-    height: 500px;
-}
+        width: 400px;
+        height: 500px;
+    }
 /* Tour section end */
 /*destination-section start */
-.row{
-   margin: 0 40px;
-    margin-top: 20px;
-}
-
+    .row{
+        margin: 0 40px;
+        margin-top: 20px;
+    }
 /*destination-section end */
 /* Choose-section start */
 #Choose-section{
-    margin: 0 40px;
-}
+        margin: 0 40px;
+    }
 .price-content{
-    
-    width: 400px;
-    text-align: start;
-    margin: 0 200px;
-}
-
+        width: 400px;
+        text-align: start;
+        margin: 0 200px;
+    }
 /* Choose-section end */
 /* discount-section start */
 #discount-section{
-    margin: 120px 40px;
-}
-      
+        margin: 120px 40px;
+    }     
 .discount-content1{
-    background: #FFFFFF;
-    width: 400px;
-    height: 320px;
-    margin: 0 0 0 420px;
-    position: relative;
-    top: 100px;
-    border-radius: 16px;
-    padding-left: 40px;
-}
-
-
+        background: #FFFFFF;
+        width: 400px;
+        height: 320px;
+        margin: 0 0 0 420px;
+        position: relative;
+        top: 100px;
+        border-radius: 16px;
+        padding-left: 40px;
+    }
 /* discount-section end */
 /* place section start */
 
 .package-btn{
-    margin-left: 350px;
-}
+        margin-left: 350px;
+    }
 .place-container{
-    margin: 0 40px;
-}
+        margin: 0 40px;
+    }
 .place-img{
-    height: 400px;
-    width: 450px;
-}
+        height: 400px;
+        width: 450px;
+    }
 /* newsletter section start */
 .newsletter-container{
-     margin-left: 40px;
-     margin-right: 40px;
-     gap: 30px;
-}
+        margin-left: 40px;
+        margin-right: 40px;
+        gap: 30px;
+    }
 .newsletter-content{
-    margin: 50px 0 0 40px;
-}
+        margin: 50px 0 0 40px;
+    }
 .aside-section img{
-    width: 450px;
-}
-
+        width: 450px;
+    }
 .newsletter-input{
-    width: 90%;
-}
-
+        width: 90%;
+    }
 .travel{
-    height: 80px;
-    width: 200px;
-    left: 45rem;
-    top: 386rem;
-}
+        height: 80px;
+        width: 200px;
+        left: 45rem;
+        top: 386rem;
+    }
 .travel-head{
-    font-size: 25px; 
-}
+        font-size: 25px; 
+    }
+/* footer section start */
+.footer-container{
+        margin: 100px 40px 0 40px;
+    }
 
 
-
-
-
+/* footer section end */
 
 }
 
@@ -573,9 +590,9 @@ nav{
     
 
             /*header section start  */
-nav{
-    margin:0 40px;
-}
+    nav{
+        margin:0 40px;
+    }
     .menu-icon{
         display: block;
     }
@@ -592,25 +609,24 @@ nav{
         width: 100%;
         display: block;
         text-align: center;
-        transition: all 0.4s; 
-        
+        transition: all 0.4s;  
     }
     /* #click:checked ~ ul{
         left: 0%;
     } */
-    nav ul li{
-     margin-top: 50px;
+nav ul li{
+         margin-top: 50px;
         
        }
-    nav ul li a{
+nav ul li a{
         font-size: 1.2rem;
         padding: 20px 150px;
-         transition: all 0.4s;
+        transition: all 0.4s;
     }
-    nav ul li a.active{
+nav ul li a.active{
        background-color: black;
     }
-    nav ul li a:hover{
+nav ul li a:hover{
         background-color: hotpink;
     }
 
@@ -618,83 +634,77 @@ nav{
 /*main section start  */
 /*banner section start  */
 #banner-section{
-    margin: 0 40px;
-    height: 700px;
-}
+        margin: 0 40px;
+        height: 700px;
+    }
 .banner-heading{
-    font-size: 30px;
-}
+        font-size: 30px;
+    }
 .banner-des{
-    font-size: 14px;
-    width: 300px;
-}
+        font-size: 14px;
+        width: 350px;
+    }
 .banner-des-parent{
-    display: flex;
-    justify-content: center;
-}
+        display: flex;
+        justify-content: center;
+    }
 .banner-content{
-    padding-top: 40px;
-
- }
+        padding-top: 40px;
+    }
  .banner-inputfill{
-    padding-bottom: 320px;
-    padding-right: 150px;
-    left: 75px;
-    top: 10px;
-}
+        padding-bottom: 320px;
+        padding-right: 150px;
+        left: 75px;
+        top: 10px;
+    }
 .banner-inputfill, .inputfill-container{
-    position: relative;
-    bottom: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
+        position: relative;
+        bottom: 20px;
+        display: flex;
+        flex-direction: column;
+    }
 .inputfill-container, .text{
-    width: 300px;
-}
+        width: 300px;
+    }
 .input-icon{
-    position: relative;
-    bottom: 30px; 
-    left: 160px;
-}
+        position: relative;
+        bottom: 30px; 
+        left: 160px;
+    }
 .banner-search-icon{
-   position: relative;
-    bottom: 35px;
-    left: 40px;
-}
-
+        position: relative;
+        bottom: 35px;
+        left: 40px;
+        }
 /*banner section end  */
 /* Tour section start */
 .tour-container{
-  margin-left: 2.5rem;
-  flex-direction: column;
-}
-
+        margin-left: 2.5rem;
+        flex-direction: column;
+        }
 .article-des{
-    width: 100%;
-}
+        width: 100%;
+    }
 .tour-img{
-   margin-top: 30px;
-    width: 500px;
-    height: 500px;
-}
-
+        margin-top: 30px;
+        width: 500px;
+        height: 500px;
+    }
 .destination-content{
-    margin: 0 80px;
-   
-}
+        margin: 0 80px;
+    }
 
 .destination-heading{
-    font-size: 25px;
-}
+        font-size: 25px;
+    }
 
 /* destination section start */
 .row{
-    display: flex;
-    gap: 0;
-    margin-top: 0;
-    flex-direction: column;
-}
+        display: flex;
+        gap: 0;
+        margin-top: 0;
+        flex-direction: column;
+    }
 /* .row{
     display: flex;
     gap: 20px; 
@@ -703,99 +713,115 @@ nav{
 /* destination section end */
 /* choose section start */
 .hotel-container{
-    flex-direction: column;
-}
+        flex-direction: column;
+    }
 .choose-des{
-    margin: 0 80px;
-}
+        margin: 0 80px;
+    }
 .hotel-content{
-    width: 420px;
-}
+        width: 420px;
+    }
 .map-content{
-    width: 420px;
-}
+        width: 420px;
+        }
 .price-content{
         width: 420px;
         margin-left: 0;
-        
-}
+        }
 
 
 /* choose section start */
 /* discount section start */
 .discount-des{
-    margin: 0 100px;
-}
-.discount-container1{
-    height: 600px;
+        margin: 0 100px;
     }
+.discount-container1{
+        height: 600px;
+        }
 .discount-container2{
         height: 600px;
         }
    
 .discount-content1{
-    background: #FFFFFF;
-    width: 400px;
-    height: 320px;
-    margin: 0 0 0 30px;
-    position: relative;
-    top: 250px;
-    border-radius: 16px;
-    padding-left: 40px;
-}
+        background: #FFFFFF;
+        width: 400px;
+        height: 320px;
+        margin: 0 0 0 30px;
+        position: relative;
+        top: 250px;
+        border-radius: 16px;
+        padding-left: 40px;
+    }
       
 .discount-content2{
-    background: #FFFFFF;
-    width: 400px;
-    height: 320px;
-    margin: 0 0 0 30px;
-    position: relative;
-    top: 250px;
-    border-radius: 16px;
-    padding-left: 40px;
-}
+        background: #FFFFFF;
+        width: 400px;
+        height: 320px;
+        margin: 0 0 0 30px;
+        position: relative;
+        top: 250px;
+        border-radius: 16px;
+        padding-left: 40px;
+    }
 .package-btn{
-    margin-left: 150px;
-}
+        margin-left: 150px;
+    }
 
 
 /* discount section end */
 /* place section start */
 .place-container{
-    flex-direction: column;
-}
+        flex-direction: column;
+    }
 .place-img{
-    width: 100%;
-}
+        width: 100%;
+    }
 .article-content{
-    margin-top: 0;
-}
+        margin-top: 0;
+    }
 
  
 /*place section end */
 /* newsletter section start */
 .newsletter-container{
-    margin-top: 50px;
-    flex-direction: column;
-}
+        margin-top: 50px;
+        flex-direction: column;
+    }
 .aside-section img{
-    width: 500px;
-    height: 400px;
-}
+        width: 500px;
+        height: 400px;
+    }
 
 .travel{
-    height: 80px;
-    width: 200px;
-    left: 20.5rem;
-    top: 609rem;
-}
+        height: 80px;
+        width: 200px;
+        left: 20.5rem;
+        top: 609rem;
+    }
 .travel-head{
-    font-size: 25px; 
-}
-.Subscribe-btn{
-    margin-top: 30px;
-}
+        font-size: 25px; 
+    }
 
+/* newsletter section end */
+/* footer section start */
+.footer-container{
+        margin-top: 50px;
+        height: 400px;
+    }
+.footer-contents{
+        text-align: center;
+        position: relative;
+        top:  4rem;
+    }
+.footer-tittle{
+        margin: 0 65px;
+        }
+.horijantal{
+        margin: 0 30px;
+    }
+
+
+/* footer section end */
 
 
 }
