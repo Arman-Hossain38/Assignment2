@@ -212,7 +212,7 @@ nav ul li a.active{
 /* destination section start */
 .row{
     display: flex;
-    gap: 20px;
+    gap: 20px; 
     margin-top: 20px;
 }
 .row img{
@@ -265,6 +265,123 @@ nav ul li a.active{
 }
 
 /* choose section end */
+/* discount section start */
+#discount-section{
+    margin: 120px 0;
+}
+.discount-content{
+    margin-bottom: 50px;
+}
+.discount-container1{
+        margin-top: 20px;
+        background-image: url(./B9A2-Hero-Travel/Images/Group\ 39.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        border-radius: 16px;
+        }
+      
+.discount-content1{
+        background: #FFFFFF;
+        width: 400px;
+        height: 320px;
+        margin: 0 0 0 700px;
+        position: relative;
+        top: 100px;
+        border-radius: 16px;
+        padding-left: 40px;
+    }
+.discount-card{
+        display: flex;
+        padding-top: 40px;
+        gap: 10px;
+        }
+.discount-card-heading{
+        margin-top: 5px;
+    }
+.price-ret{
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 10px;
+        }
+.discount-btn{
+        width: 150px;
+        height: 52px;
+        background-color: #FF5400;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 20px;
+        font-weight: 800;
+        border: none;
+        border-radius: 10px;
+        margin-top: 10px;
+        }
+
+.discount-container2{
+            margin-top: 20px;
+            background-image: url(./B9A2-Hero-Travel/Images/Group\ 40.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 500px;
+            border-radius: 16px;
+        
+            }
+            .discount-content2{
+                background: #FFFFFF;
+                width: 400px;
+                height: 320px;
+               margin-left: 50px;
+                position: relative;
+                top: 100px;
+                border-radius: 16px;
+                padding-left: 40px;
+            }
+.package-btn{
+    margin-left: 500px;
+    margin-top: 40px;
+    width: 200px;
+}
+
+
+/* discount section end */
+/* place section start */
+.place-container{
+    display: flex;
+    justify-content: space-between;
+}
+.place-heading{
+        font-family: Mulish;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 60px; 
+        width: 380px;
+        }
+.place-des{
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; 
+        margin-top: 20px;
+        }
+.place-unoder-des{
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+        margin-left: 20px;
+        margin-top: 20px;
+        }
+.place-btn{
+        width: 174px;
+        height: 52px;
+        margin-top: 15px;
+        }
+
+/* place section end */
+
 
 /*main section end  */
     /* for desktop */
@@ -313,9 +430,35 @@ nav{
 }
 
 /* Choose-section end */
+/* discount-section start */
+#discount-section{
+    margin: 120px 40px;
+}
+      
+.discount-content1{
+    background: #FFFFFF;
+    width: 400px;
+    height: 320px;
+    margin: 0 0 0 420px;
+    position: relative;
+    top: 100px;
+    border-radius: 16px;
+    padding-left: 40px;
+}
 
 
-
+/* discount-section end */
+/* place section start */
+.package-btn{
+    margin-left: 350px;
+}
+.place-container{
+    margin: 0 40px;
+}
+.place-img{
+    height: 400px;
+    width: 450px;
+}
 }
 
 
@@ -432,7 +575,7 @@ nav{
 }
 
 .destination-content{
-    margin: 0 90px;
+    margin: 0 80px;
    
 }
 
@@ -442,9 +585,16 @@ nav{
 
 /* destination section start */
 .row{
+    display: flex;
+    gap: 0;
+    margin-top: 0;
     flex-direction: column;
 }
-
+/* .row{
+    display: flex;
+    gap: 20px; 
+    margin-top: 20px;
+} */
 /* destination section end */
 /* choose section start */
 .hotel-container{
@@ -467,6 +617,58 @@ nav{
 
 
 /* choose section start */
+/* discount section start */
+.discount-des{
+    margin: 0 100px;
+}
+.discount-container1{
+    height: 600px;
+    }
+.discount-container2{
+        height: 600px;
+        }
+   
+.discount-content1{
+    background: #FFFFFF;
+    width: 400px;
+    height: 320px;
+    margin: 0 0 0 30px;
+    position: relative;
+    top: 250px;
+    border-radius: 16px;
+    padding-left: 40px;
+}
+      
+.discount-content2{
+    background: #FFFFFF;
+    width: 400px;
+    height: 320px;
+    margin: 0 0 0 30px;
+    position: relative;
+    top: 250px;
+    border-radius: 16px;
+    padding-left: 40px;
+}
+.package-btn{
+    margin-left: 150px;
+}
+
+
+/* discount section end */
+/* place section start */
+.place-container{
+    flex-direction: column;
+}
+.place-img{
+    width: 100%;
+}
+.article-content{
+    margin-bottom: 30px;
+}
+
+ 
+/*place section end */
+
 
 
 }
