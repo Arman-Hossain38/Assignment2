@@ -267,7 +267,7 @@ nav ul li a.active{
 /* choose section end */
 /* discount section start */
 #discount-section{
-    margin: 120px 0;
+   margin-top: 120px;
 }
 .discount-content{
     margin-bottom: 50px;
@@ -328,16 +328,16 @@ nav ul li a.active{
             border-radius: 16px;
         
             }
-            .discount-content2{
-                background: #FFFFFF;
-                width: 400px;
-                height: 320px;
-               margin-left: 50px;
-                position: relative;
-                top: 100px;
-                border-radius: 16px;
-                padding-left: 40px;
-            }
+.discount-content2{
+            background: #FFFFFF;
+            width: 400px;
+            height: 320px;
+            margin-left: 50px;
+            position: relative;
+            top: 100px;
+            border-radius: 16px;
+            padding-left: 40px;
+}
 .package-btn{
     margin-left: 500px;
     margin-top: 40px;
@@ -348,14 +348,18 @@ nav ul li a.active{
 /* discount section end */
 /* place section start */
 .place-container{
+    /* margin-top: 20px; */
     display: flex;
     justify-content: space-between;
+}
+.article-content{
+    margin-top: 55px;
 }
 .place-heading{
         font-family: Mulish;
         font-size: 30px;
         font-weight: 800;
-        line-height: 60px; 
+        line-height: 50px; 
         width: 380px;
         }
 .place-des{
@@ -379,10 +383,78 @@ nav ul li a.active{
         height: 52px;
         margin-top: 15px;
         }
+.aside-place-heading{
+        color: #FFFFFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 28px;
+        font-weight: 800;
+        position: relative;
+        top: 250px;
+        }
+         
 
 /* place section end */
+/* newsletter section start */
+.newsletter-container{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.article-section{
+    background: #FFF;
+    border: 1px solid #FF5400;
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+}
+.newsletter-content{
+    margin: 50px 0 0 50px;
+}
+.newsletter-inputfill .newsletter-input{
+    display: block;
+}
+.newsletter-input{
+    background-color: #1313180D;
+    width: 400px;
+    height: 50px;
+    margin-left: 0;
+}
+.Subscribe-btn{
+    background-color: #FF5400;
+}
+.aside-section img{
+    width: 672px;
+    height: 400px;
+}
+.travel{
+    background-color: #FF5400;
+    height: 100px;
+    width: 290px;
+    border-radius: 10px;
+    transform: rotate(-20deg);
+    position: absolute;
+    left: 66.5rem;
+    top: 396rem;
+}
+.travel-para{
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 15px;
+        }
+.travel-head{
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+        }
 
 
+/* newsletter section start */
 /*main section end  */
     /* for desktop */
 @media screen and (max-width: 992px){
@@ -449,6 +521,7 @@ nav{
 
 /* discount-section end */
 /* place section start */
+
 .package-btn{
     margin-left: 350px;
 }
@@ -459,6 +532,38 @@ nav{
     height: 400px;
     width: 450px;
 }
+/* newsletter section start */
+.newsletter-container{
+     margin-left: 40px;
+     margin-right: 40px;
+     gap: 30px;
+}
+.newsletter-content{
+    margin: 50px 0 0 40px;
+}
+.aside-section img{
+    width: 450px;
+}
+
+.newsletter-input{
+    width: 90%;
+}
+
+.travel{
+    height: 80px;
+    width: 200px;
+    left: 45rem;
+    top: 386rem;
+}
+.travel-head{
+    font-size: 25px; 
+}
+
+
+
+
+
+
 }
 
 
@@ -663,11 +768,33 @@ nav{
     width: 100%;
 }
 .article-content{
-    margin-bottom: 30px;
+    margin-top: 0;
 }
 
  
 /*place section end */
+/* newsletter section start */
+.newsletter-container{
+    margin-top: 50px;
+    flex-direction: column;
+}
+.aside-section img{
+    width: 500px;
+    height: 400px;
+}
+
+.travel{
+    height: 80px;
+    width: 200px;
+    left: 20.5rem;
+    top: 609rem;
+}
+.travel-head{
+    font-size: 25px; 
+}
+.Subscribe-btn{
+    margin-top: 30px;
+}
 
 
 
